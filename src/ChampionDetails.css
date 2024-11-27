@@ -1,0 +1,19 @@
+.ChampionDetails{
+    background: linear-gradient(135deg, #0c1a38, #010814);
+    margin: 0;
+    height: 90vh;
+    width: 100vw;
+    padding-top: 1px;
+}
+
+img{
+    transform: scale(0.7);
+}
+
+p{
+    font-size: xx-large;
+}
+
+.readMore{
+    white-space: normal;
+}

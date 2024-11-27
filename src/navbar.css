@@ -1,0 +1,26 @@
+nav{
+    background-color: #264075;
+    background: linear-gradient(135deg, #264075, #080d16);
+    letter-spacing: 2px;
+    min-height: 10vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction:row-reverse;
+    border-bottom: 2px solid #12161f;
+}
+
+.linkDirection {
+    margin: 20px;
+    color: #d6a64d;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    margin-top: 30px;
+  }
+  
+  .linkDirection:hover {
+    color: #ffda79;
+    text-shadow: 0 0 10px #ffda79, 0 0 20px #ffc107;
+    transform: scale(1.1);
+  }

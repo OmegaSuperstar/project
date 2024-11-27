@@ -1,0 +1,26 @@
+.scrolling-bar {
+  display: flex;
+  overflow: hidden; 
+  width: 100%;
+  height: 150px; 
+}
+
+.scrolling-bar-inner {
+  display: flex;
+  animation: scroll-horizontal 20s linear infinite; 
+}
+
+.champion-image {
+  width: 100px;
+  height: auto;
+  margin: 0 5px; 
+}
+
+@keyframes scroll-horizontal {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

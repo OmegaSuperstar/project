@@ -1,0 +1,56 @@
+.ChampionSearchDiv{
+    padding-top: 50px;
+}
+
+.ChampionOutputDiv {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Flexible column layout */
+    justify-content: center; /* Centers items horizontally */
+    gap: 20px; /* Adds space between cards */
+    margin-top: 20px;
+}
+
+.ChampionCard {
+    display: flex; /* Changed from block to flex */
+    flex-direction: column; /* Ensures vertical stacking of elements */
+    align-items: center; /* Centers content horizontally */
+    margin: auto;
+    padding: 10px;
+    width: 200px;
+    text-align: center; /* Align text properly */
+    background-color: #2b3a51; /* Optional: Add a background for cards */
+    border-radius: 8px; /* Rounds card edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a slight shadow */
+    transition: transform 0.3s ease; /* Adds hover effect */
+}
+
+.ChampionCard:hover {
+    transform: scale(1.05); /* Smooth scaling effect on hover */
+}
+
+.ChampionOutputDiv img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px; /* Makes the image circular */
+    border: 2px solid black;
+    margin-bottom: 0; /* Adds spacing below the image */
+    margin-top: 0px;
+}
+
+.ChampionName{
+    font-size: 2rem;
+}
+
+.ChampionTitle {
+    margin: 5px 0; /* Adds spacing above and below the title */
+    font-size: 1.5rem;
+    white-space: normal; /* Fixes the nowrap issue */
+}
+
+.ChampionImage {
+    margin: 0; /* Reset previous large margin */
+}
+
+.ChampionRoles{
+    font-size: 1.3rem;
+}

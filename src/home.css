@@ -1,0 +1,51 @@
+.HomeContainer {
+  background: linear-gradient(135deg, #1e3a5f, #080d16);
+  color: #ebb654; 
+  height: 90vh;
+  width: 100vw;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+  font-size: 1.2rem; 
+  text-align: center;
+}
+
+#LolLogoImg {
+  transform: scale(1);
+  transition: all 1s ease; /* Smooth transition for hover effects */
+  display: block; /* Ensures proper alignment within the parent */
+  margin: 0 auto; /* Centers the image horizontally */
+}
+
+#LolLogoImg:hover {
+  transform: scale(1.1); /* Enlarges the image slightly */
+}
+
+h1, h2, a{
+  color: #ebb654; /* Base neon color */
+    text-shadow: 0 0 200px #ebb654,  /* Close glow */
+                 0 0 100px #ebb654, /* Medium glow */
+                 0 0 50px #ebb654, /* Outer glow */
+                 0 0 100px #e2b275, /* Slightly lighter color for depth */
+                 0 0 200px #ffd1a6; /* Final outer highlight */
+    font-weight: bold;
+}
+
+@media screen and (max-width: 695px){
+  h1, h2, a{
+    white-space: nowrap;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .HomeContainer{
+    flex-direction: column;
+  }
+
+  #LolLogoImg{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    transform: scale(3);
+  }
+}

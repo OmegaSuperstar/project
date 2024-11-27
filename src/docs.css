@@ -1,0 +1,27 @@
+.docsDiv{
+    font-size: larger;
+}
+
+ul{
+    list-style-type:circle;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #12161f;
+}
+
+h1{
+    margin-top: 50px;
+}
+
+.homePageParag, .championSearchParag, .docsParag{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    line-height: 2rem;
+}
+
+li{
+    line-height: 2.5rem;
+}
