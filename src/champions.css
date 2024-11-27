@@ -59,6 +59,8 @@ button{
     background-color: #2b4874;
     color: #ebb654;
     border-radius: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 button:hover{
@@ -70,16 +72,20 @@ input{
     background-color: #475770;
     border-radius: 3px;
     color: #ebb654;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 input:hover{
-    box-shadow: 0 0 5px #475770, 0 0 10px #7791bb;
+    box-shadow: 0 0 5px #ffda79, 0 0 10px #ffc107;
 }
 
 select{
     background-color: #2b4874;
     color: #ebb654;
     border-radius: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 select:hover{
