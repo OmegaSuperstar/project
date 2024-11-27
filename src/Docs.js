@@ -4,7 +4,7 @@ import './docs.css';
 function Docs(){
     return(
         <div className='docsDiv'>
-            <h1>LoL Champions Search Library</h1>
+            <h1><u>LoL Champions Search Library</u></h1>
             <p className='homePageParag'>When the <strong>home</strong> site has been entered, the user is able to:</p>
             <ul>
                 <li>
