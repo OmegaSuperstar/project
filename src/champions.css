@@ -58,29 +58,31 @@
 button{
     background-color: #2b4874;
     color: #ebb654;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 button:hover{
     background-color: #374a68;
-    box-shadow: 0 0 10px #ffda79, 0 0 20px #ffc107;
+    box-shadow: 0 0 5px #ffda79, 0 0 10px #ffc107;
 }
 
 input{
     background-color: #475770;
-    border-radius: 5px;
+    border-radius: 3px;
+    color: #ebb654;
 }
 
 input:hover{
-    box-shadow: 0 0 10px #475770, 0 0 20px #7791bb;
+    box-shadow: 0 0 5px #475770, 0 0 10px #7791bb;
 }
 
 select{
     background-color: #2b4874;
     color: #ebb654;
+    border-radius: 3px;
 }
 
 select:hover{
     background-color: #374a68;
-    box-shadow: 0 0 10px #ffda79, 0 0 20px #ffc107;
+    box-shadow: 0 0 5px #ffda79, 0 0 10px #ffc107;
 }
